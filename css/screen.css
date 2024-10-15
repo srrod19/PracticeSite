@@ -16,5 +16,8 @@ ul {
 	padding: 0;
 	font-size: 15;
 }
+li{
+	display: inline;
+}
 
 
