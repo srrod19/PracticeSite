@@ -1,10 +1,12 @@
 body{
 	margin: 5px;
 }
+
 h1 {
 	color: green;
 	text-align: center;
 	font-size: 25px;
+	background-color: rgb(184, 228, 184);
 }
 
 .navbar ul{
