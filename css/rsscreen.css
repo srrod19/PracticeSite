@@ -32,7 +32,9 @@ h1 {
 .navbar li{
 	float: left;
 }
-
+dt {
+    font-weight: bold;
+}
 hr.rounded {
     border-top: 10px solid #bbb;
     border-radius: 5px
