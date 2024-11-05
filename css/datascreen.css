@@ -6,15 +6,20 @@ h1 {
 	color: green;
 	text-align: center;
 	font-size: 25px;
-	font-family:'Lucida Sans' monospace;
+	font-family:"Lucida Sans";
 	background-color: rgb(184, 228, 184);
 	margin: 0px;
 }
-
+h2 {
+color: black;
+text-align: center;
+font-size: 15px;
+font-family: "Lucida Sans";
+}
 .navbar ul{
 	list-style-type: none;
 	background-color: forestgreen;
-	font-family:'Lucida Sans' monospace;
+	font-family:"Lucida Sans";
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
@@ -39,5 +44,17 @@ ul {
 	margin: 5px;
 	padding: 15px;
 	font-size: 20px;
+}
+h3 {
+	color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Lucida Sans";
+}
+h4 {
+	color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Lucida Sans";
 }
 
