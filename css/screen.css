@@ -6,6 +6,7 @@ h1 {
 	color: green;
 	text-align: center;
 	font-size: 25px;
+	font-family:'Lucida Sans' monospace;
 	background-color: rgb(184, 228, 184);
 	margin: 0px;
 }
@@ -44,9 +45,11 @@ h2 {
 	color: rgb(21, 64, 21);
 	text-align: left;
 	font-size: 20px;
+	font-family:'Lucida Sans' monospace;
 }
 p {
 	text-align: left;
 	font-size: 15px;
+	font-family: "Verdana" sans-serif;
 }
 
