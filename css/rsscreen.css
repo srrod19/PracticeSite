@@ -6,7 +6,7 @@ h1 {
 	color: green;
 	text-align: center;
 	font-size: 25px;
-    font-family:"Lucida Sans";
+    font-family:"Lucida Console";
 	background-color: rgb(184, 228, 184);
 	margin: 0px;
 }
@@ -14,7 +14,7 @@ h2 {
     color: black;
     text-align: left;
     font-size: 25px;
-    font-family: "Lucida Sans";
+    font-family: "Lucida Console";
 }
 p {
 	color: black;
@@ -25,7 +25,7 @@ p {
 .navbar ul{
 	list-style-type: none;
 	background-color: #228b22;
-	font-family:"Lucida Sans";
+	font-family:"Lucida Console";
     padding: 0px;
 	margin: 0px;
 	overflow: hidden;
@@ -78,13 +78,13 @@ h3 {
     color: black;
     text-align: center;
     font-size: 20px;
-    font-family: "Lucida Sans";
+    font-family: "Lucida Console";
 }
 h4 {
     color: black;
     text-align: center;
     font-size: 15px;
-    font-family: "Lucida Sans";
+    font-family: "Lucida Console";
 }
 aside {
     width: 50%;
