@@ -6,7 +6,7 @@ h1 {
 	color: green;
 	text-align: center;
 	font-size: 25px;
-    font-family:"Trebuchet MS";
+    font-family: "Trebuchet MS";
 	background-color: rgb(184, 228, 184);
 	margin: 0px;
 }
@@ -30,7 +30,6 @@ p {
 	margin: 0px;
 	overflow: hidden;
 }
-
 .navbar a{
 	color: white;
 	text-decoration: none;
@@ -99,4 +98,3 @@ aside {
     font-family: "Verdana";
     background-color: lightgray;
 }
-
