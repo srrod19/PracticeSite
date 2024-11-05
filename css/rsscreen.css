@@ -52,11 +52,16 @@ ul {
 	font-size: 15px;
     font-family: "Verdana";
 }
-dt, dd {
+dt{
     font-weight: bold;
     font-family: "Verdana";
-    font-size: 12px;
+    font-size: 14px;
 }
+dd {
+    font-family: "Verdana";
+    font-size: 11px;
+}
+
 hr.rounded {
     border-top: 5px solid #228b22;
     border-radius: 5px
