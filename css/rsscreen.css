@@ -49,3 +49,11 @@ hr.rounded {
     border-top: 5px solid #228b22;
     border-radius: 5px
 }
+aside{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-family: "Verdana" sans-serif;
+    background-color: lightgray;
+}
