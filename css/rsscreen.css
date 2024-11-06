@@ -52,7 +52,7 @@ ul {
     font-family: "Verdana";
 }
 #list2 {
-    list-style-type: "disc";
+    list-style-type: disc;
     font-size: 15px;
 }
 dt{
