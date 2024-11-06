@@ -1,31 +1,31 @@
 body{
-	margin: 5px;
+	margin: 10px;
 }
 
 h1 {
 	color: green;
 	text-align: center;
 	font-size: 25px;
-	font-family:"Lucida Sans";
+	font-family:"Trebuchet MS";
 	background-color: rgb(184, 228, 184);
 	margin: 0px;
 }
 h2 {
-color: black;
-text-align: center;
-font-size: 15px;
-font-family: "Lucida Sans";
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Trebuchet MS";
 }
 p {
 	color: black;
 	text-align: center;
-	font-size: 11px;
+	font-size: 15px;
 	font-family: "Verdana";
 }
 .navbar ul{
 	list-style-type: none;
 	background-color: forestgreen;
-	font-family:"Lucida Sans";
+	font-family:"Trebuchet MS";
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
@@ -51,16 +51,27 @@ ul {
 	padding: 15px;
 	font-size: 20px;
 }
+#list2 {
+	list-style-type: "disc";
+}
 h3 {
 	color: black;
     text-align: center;
-    font-size: 15px;
-    font-family: "Lucida Sans";
+    font-size: 20px;
+    font-family: "Trebuchet MS";
 }
 h4 {
 	color: black;
     text-align: center;
     font-size: 15px;
-    font-family: "Lucida Sans";
+    font-family: "Trebuchet MS";
+}
+aside {
+    width: 50%;
+    padding-right: 25px;
+    margin-right: 25px;
+    float: right;
+    font-family: "Verdana";
+    background-color: lightgray;
 }
 
