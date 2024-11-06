@@ -60,6 +60,12 @@ h3 {
     font-size: 20px;
     font-family: "Trebuchet MS";
 }
+ol {
+	color: black;
+	text-align: left;
+	font-size: 15px;
+	font-family: "Verdana"
+}
 h4 {
 	color: black;
     text-align: center;

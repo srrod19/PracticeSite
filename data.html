@@ -37,10 +37,50 @@
 	</ul>
 
 	<h3>Format data for analysis</h3>
+	<p><a href="tutorial_spreadsheet.xlsx" target="_blank">ToolBox_DataLesson.xls</a>Make sure the computer you are working on has Microsoft Excel installed. Open the document ToolBox_DataLesson.xls in Excel and follow along with the lesson, taking action as instructed.</p>
+	<p>In the Raw_Dataset spreadsheet, the name of each variable has been entered in the first row of each column.</p>
+
+	<ol>
+		<li>Each variable name must be different from other variable names</li>
+		<li>The first variable (in column A) is a <strong>unique identifier</strong>.</li>
+		<li>Variable names must start with a letter (not numbers or special characters), so change <cite>4tutorial_types to tutorial_types</cite>.</li>
+		<li>Name variables so that they are intuitive to you. Therefore, change <cite>use</cite> and <cite>useful</cite> to <cite>perc_ease_of_use</cite> and <cite>perc_usefulness</cite>, respectively</li>
+		<li>Your spreadsheet should look like Figure 1, and it should now be readily apparent that Column F refers to <cite>Perceived Usefulness</cite> and Column G refers to <cite>Perceived Ease of Use</cite>.</li>
+	</ol>
+
+	<img src="datalesson_fig3.png" alt="Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.">
+	<aside><strong>Figure 1:</strong> Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</aside>
+
+	<p>Data values, or rows, have been input for each subject in the experiment.</p>
+	<ol>
+		<li>Decide on input conventions and stick to them. In gender, change the "female" value to "F".</li>
+		<li>Separate data into component values whenever possible by adding new columns. For example, <cite>tasks_completed</cite> values (Y/Y/N) can be broken up into three components. So, add columns <cite>task1, task2,</cite> and <cite>task3,</cite> and reformat values appropriately</li>
+		<li>Double-check to ensure no data entry errors have been made, then delete the old <cite>tasks_completed</cite> column.</li>
+		<li>Your Raw_Dataset spreadsheet should now look like Figure 2.</li>
+	</ol>
+
+	<img src="datalesson_fig2.png" alt="image of spreadsheet with the appropriate titles and data inserted">
+	<aside><strong>Figure 2:</strong> Values for each variable are entered in a consistent format.</aside>
+
+	<p>Replace categorical data values with "0" or "1" (0=no, 1=yes) to indicate whether or not the value is represented for the given subject/item. This makes the categorical values <strong>dichotomous</strong>, which gives the researcher maximum flexibility in testing for relationships or correlations</p>
+	<aside>Dichotomous variables allow for the easy isolation of characteristics for analysis. For example, separating experience levels allows the researcher to test in PASW whether subjects with low experience have perceived ease of use scores significantly different from those with medium and high experience levels.</aside>
+
+	<ol>
+		<li>Copy the Raw_Dataset values into the Sheet2 tab. Rename this sheet Formatted_Data.</li>
+		<li>In the Formatted_Data sheet, add new columns with <strong>Insert > Columns</strong> for each distinct value in categorical data columns <cite>(tutorial_types, gender, exp_level, task1, task2, and task3)</cite>. You do not have to add a new column for <cite>task1, task2,</cite> and <cite>task3</cite> because their values are already dichotomous</li>
+		<li>Rename columns according to each possible categorical value. Copy and paste the values from the original column.</li>
+		<li>Replace dichotomous data values with "0" or "1" (0=no, 1=yes) using the replace function: <strong>Edit > Replace</strong>.</li>
+		<li>Your Formatted_Data spreadsheet should now look like Figure 3.</li>
+	</ol>
+
+
+	<img src="datalesson_fig3 (1).png" alt="organized data from the spreadsheet from the tutorial">
+	<aside> Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</aside>
+
+	<h3>Run Descriptive Statistics</h3>
+	<aside>Analyzing descriptive statistics may lead you to ask new questions. For example, <cite>perc_enjoy</cite> is much higher on average than <cite>perc_usefulness</cite>, which also has a large variance. This suggests that a segment of users may not have considered the system useful even though they enjoyed using it</aside>
+
 	
-
-
-
 
 
 
